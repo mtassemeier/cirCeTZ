@@ -11,4 +11,5 @@
 #import "/src/components/resistive-bipoles.typ": *
 #import "/src/components/sources.typ": *
 #import "/src/components/terminal-shapes.typ": *
+#import "/src/components/transformers.typ": *
 #import "/src/components/transistors.typ": *
