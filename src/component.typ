@@ -64,7 +64,7 @@
 
   let pos = position-style.pos()
   assert(pos.len() in (1, 2), message: "Expected 1 or 2 positional arguments, got " + repr(pos.len()))
-  let _ = pos.map(cetz.coordinate.resolve-system)
+  // let _ = pos.map(cetz.coordinate.resolve-system)
 
   assert(rotation == 0deg or pos.len() == 1, message: "Rotation is only supported for node placement.")
   let _ = if type(rotation) != angle {
